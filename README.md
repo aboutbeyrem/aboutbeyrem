@@ -29,6 +29,7 @@ My own Linux distribution, built on Arch and KDE Plasma, for people who have alw
 - **`please`:** system jobs in plain words. Its AI half is treated as **untrusted**: a separate danger classifier
   blocks destructive commands, and nothing runs without a yes.
 - **Timeline:** Btrfs snapshots, so a broken system rolls back.
+- **Snap Layouts:** `Super+Z` tiles the active window into one of six layouts, with a gold preview.
 - **Built like a product:** up to v49 so far, built with `archiso`; recent builds pass an automated gate and QEMU
   boot tests before they ship.
 
@@ -47,6 +48,8 @@ Compiled from source on top of Brave (Chromium 149), rebranded down to the engin
 - **Survives updates:** the overlay is idempotent, so it re-applies cleanly to each new Brave release.
 - **One surgical change for the new tab:** Brave builds its new tab through one function; Flow swaps that single
   chokepoint instead of patching dozens of files.
+- **Make the new tab yours:** `Ctrl+Shift+E` lets you drag everything around, edit your sites and set an image or
+  video background. `Ctrl+Space` opens a command palette.
 - **Quiet by default:** telemetry, rewards, crypto wallet, VPN and AI chat off; search through DuckDuckGo.
 
 `C++` · `Chromium / Brave` · `GN build` · `JavaScript`
