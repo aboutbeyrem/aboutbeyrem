@@ -1,6 +1,6 @@
 # Beyrem
 
-High-school senior in Tunisia. I build tools for problems I actually have, then measure whether they work.
+Hey, I'm Beyrem 👋 A student in Tunisia who got hacked once and decided to build my way out. Here's what came of it.
 
 ---
 
