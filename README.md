@@ -30,7 +30,7 @@ My own Linux distribution, built on Arch and KDE Plasma, for people who have alw
   blocks destructive commands, and nothing runs without a yes.
 - **Timeline:** Btrfs snapshots, so a broken system rolls back.
 - **Snap Layouts:** `Super+Z` tiles the active window into one of six layouts, with a gold preview.
-- **Built like a product:** up to v49 so far, built with `archiso`; recent builds pass an automated gate and QEMU
+- **Release process:** up to v49 so far, built with `archiso`; recent builds pass an automated gate and QEMU
   boot tests before they ship.
 
 `Arch Linux` · `KDE Plasma` · `PyQt6 / QML` · `Bash` · `archiso`
@@ -39,7 +39,7 @@ My own Linux distribution, built on Arch and KDE Plasma, for people who have alw
 
 ## 🌊 [Flow](https://github.com/aboutbeyrem/Flow): Aether's own browser
 
-Compiled from source on top of Brave (Chromium 149), rebranded down to the engine so it feels like part of the OS.
+Compiled from source on top of Brave (Chromium 149), rebranded at the source so it feels like part of the OS.
 
 <a href="https://github.com/aboutbeyrem/Flow"><img src="https://raw.githubusercontent.com/aboutbeyrem/Flow/main/docs/new-tab-light.png" alt="Flow new tab" width="100%"></a>
 
@@ -49,7 +49,7 @@ Compiled from source on top of Brave (Chromium 149), rebranded down to the engin
 - **One surgical change for the new tab:** Brave builds its new tab through one function; Flow swaps that single
   chokepoint instead of patching dozens of files.
 - **Make the new tab yours:** `Ctrl+Shift+E` lets you drag everything around, edit your sites and set an image or
-  video background. `Ctrl+Space` opens a command palette.
+  video background. Brave's `Ctrl+Space` command palette stays on.
 - **Quiet by default:** telemetry, rewards, crypto wallet, VPN and AI chat off; search through DuckDuckGo.
 
 `C++` · `Chromium / Brave` · `GN build` · `JavaScript`
@@ -71,7 +71,7 @@ temperature within 0.28 °C (r = 0.999).
 ### How I work
 - **Measure, don't claim.** Every project ships its own numbers, including the bad ones (rain: r = 0.42).
 - **Write down the limits.** What a tool can't do goes in the README, not in a footnote.
-- **Say how it was built.** I use AI as a pair programmer, and my READMEs say so.
+- **Say how it was built.** I build with AI coding agents (Claude Code), and each README says how much.
 
 ### Contact
 [itsbeyrem@gmail.com](mailto:itsbeyrem@gmail.com) · [LinkedIn](https://www.linkedin.com/in/aboutbeyrem/)
