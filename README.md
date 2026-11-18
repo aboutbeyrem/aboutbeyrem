@@ -6,7 +6,8 @@ Hey, I'm Beyrem 👋 A student in Tunisia who got hacked once and decided to bui
 
 ## 🛡️ [SimpleAV](https://github.com/aboutbeyrem/SimpleAV): when my antivirus kept losing
 
-A file-infecting virus patched 865 programs on my PC and came back after every "removal".
+A file from a friend's hijacked Discord account brought in two things: Blank Grabber, an account stealer I caught
+and wiped, and a file infector I missed. The infector patched 865 programs and came back after every "removal".
 I took it apart byte by byte, found its 12-byte fingerprint and the four persistence tricks
 keeping it alive, and wrote a scanner and real-time watcher for exactly that family.
 When it came back, SimpleAV caught it: 18 freshly infected programs quarantined on its own.
@@ -71,7 +72,7 @@ temperature within 0.28 °C (r = 0.999).
 ### How I work
 - **Measure, don't claim.** Every project ships its own numbers, including the bad ones (rain: r = 0.42).
 - **Write down the limits.** What a tool can't do goes in the README, not in a footnote.
-- **Say how it was built.** I build with AI coding agents (Claude Code), and each README says how much.
+- **Say how it was built.** The ideas and decisions are mine; AI coding agents (Claude Code) are my tools, and I say so.
 
 ### Contact
 [itsbeyrem@gmail.com](mailto:itsbeyrem@gmail.com) · [LinkedIn](https://www.linkedin.com/in/aboutbeyrem/)
