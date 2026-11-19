@@ -1,6 +1,6 @@
-# Beyrem
+# Beyrem Oueslati
 
-Hey, I'm Beyrem 👋 A student in Tunisia who got hacked once and decided to build my way out. Here's what came of it.
+Hey, I'm Beyrem Oueslati 👋 A student in Tunisia who got hacked once and decided to build my way out. Here's what came of it.
 
 ---
 
@@ -75,4 +75,4 @@ temperature within 0.28 °C (r = 0.999).
 - **Say how it was built.** The ideas and decisions are mine; AI coding agents (Claude Code) are my tools, and I say so.
 
 ### Contact
-[itsbeyrem@gmail.com](mailto:itsbeyrem@gmail.com) · [LinkedIn](https://www.linkedin.com/in/aboutbeyrem/)
+[aboutbeyrem.com](https://www.aboutbeyrem.com) · [itsbeyrem@gmail.com](mailto:itsbeyrem@gmail.com) · [LinkedIn](https://www.linkedin.com/in/aboutbeyrem/)
