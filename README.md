@@ -16,6 +16,26 @@ When it came back, SimpleAV caught it: 18 freshly infected programs quarantined 
 
 ---
 
+## 💡 [Porchlight](https://github.com/aboutbeyrem/porchlight): a calm guard for your home network
+
+After SimpleAV I wanted to stop the next attack at the door. Porchlight is a Windows tray app that watches the home
+network and tells you, in plain words, what to fix next. It only looks: no logins, no password guessing.
+**[Download it at porchlight-beryl.vercel.app](https://porchlight-beryl.vercel.app)**
+
+<a href="https://github.com/aboutbeyrem/porchlight"><img src="https://raw.githubusercontent.com/aboutbeyrem/porchlight/main/docs/app-overview.png" alt="Porchlight saying Your home is mostly safe, with the next step lit up and a small map of the home network" width="100%"></a>
+
+- **Who's here:** names each device from what it announces (the router's DNS, service names, mDNS) and asks
+  "Is it yours?" when someone new joins.
+- **Something pretending:** catches a device answering as the router (ARP spoofing), fake copies of your Wi-Fi,
+  and the repeated drops of a "kick-off" (deauthentication) attack, live.
+- **One step at a time:** the next fix, lit up, and "I did it, check again" to prove it worked.
+- **Tested at home first:** its first look found an FTP server and SMBv1 still on in our router, and WPS on the extender.
+- **Trust:** signed updates, no account, no telemetry, and a page listing every connection it makes.
+
+`Rust` · `Tauri` · `Windows Wi-Fi API` · `150 tests`
+
+---
+
 ## 🪶 [Aether OS](https://github.com/aboutbeyrem/aether-os): Linux for people scared of Linux
 
 My own Linux distribution, built on Arch and KDE Plasma, for people who have always been too scared to try Linux.
